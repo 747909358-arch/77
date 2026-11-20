@@ -9,6 +9,7 @@
 - [时间轴型信息图形（Timeline Infographics）](./03-时间轴型信息图形.md)
 - [层级型信息图形（Hierarchical Infographics）](./04-层级型信息图形.md)
 - [编目型信息图形（Catalog Infographics）](./05-编目型信息图形.md)
+- [字母表型信息图形（Alphabet / Symbol-System Infographics）](./06-字母表型信息图形.md)
 
 ## 案例入库规范
 
