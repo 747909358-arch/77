@@ -7,6 +7,7 @@
 - [混合型信息图形（Mixed Charts）](./01-混合型信息图形-Mixed-Charts.md)
 - [文字型/列表型信息图形（Informational / List Infographics）](./02-文字型列表型信息图形.md)
 - [时间轴型信息图形（Timeline Infographics）](./03-时间轴型信息图形.md)
+- [层级型信息图形（Hierarchical Infographics）](./04-层级型信息图形.md)
 
 ## 案例入库规范
 
