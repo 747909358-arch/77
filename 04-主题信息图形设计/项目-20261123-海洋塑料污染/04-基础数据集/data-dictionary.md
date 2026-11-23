@@ -7,7 +7,7 @@
 | 文件建议 | 单列字段 | 类型 | 单位/格式 | 一条记录代表什么 | 来源 | 状态 |
 |---|---|---|---|---|---|---|
 | plastic_item_category.csv | item_category | string | 类别名称 | 一个垃圾制品类别 | NOAA 分类体系/文献 | 待获取官方类别表 |
-| river_emission_tonnes.csv | emission_tonnes_per_year | numeric | tonnes/year | 一个河流/流域在 2019 年的模型估计值 | S02 | 待下载与审字段 |
+| river_emission_tonnes.csv | emission_tonnes_per_year | numeric | tonnes/year | 一个国家/地区在 2019 年的模型估计值（以实际数据行定义为准） | S02 | 待下载与审字段 |
 | shoreline_debris_count.csv | item_count | integer | count | 一个样点一次调查中的计数值（须与记录粒度配套） | S03 | 待导出与审字段 |
 | impact_mechanism.csv | mechanism | string | 摄入/缠绕/栖息地等 | 一个文献记录的影响机制标签 | S01/同行评审研究 | 待文献编码 |
 
@@ -15,12 +15,12 @@
 
 ## B. 多字段叙事数据（计划）
 
-### 河流入海估计表
+### 国家层级河流入海估计表
 | 字段名 | 含义 | 类型 | 单位/格式 | 来源 |
 |---|---|---|---|---|
 | record_id | 唯一记录 ID | string | 唯一值 | 自建 |
-| river_or_basin | 河流/流域名称 | string | 原始名称 | S02/原始论文 |
-| country_or_region | 国家/区域 | string | 标准名称 | S02 |
+| entity | 国家/地区名称（按 CSV 原始实体字段） | string | 原始名称 | S02 |
+| country_code | 国家/地区代码（若 CSV 提供） | string | 原始代码 | S02 |
 | year | 指标年份 | integer | 2019 | S02 |
 | estimated_emission | 入海估计量 | numeric | tonnes/year | S02 |
 | estimate_method | 方法属性 | string | modelled estimate | S02 |
@@ -42,8 +42,8 @@
 | source_id | 来源 ID | string | S03 | 项目登记 |
 
 ## C. 数据关联与质量规则
-- 河流估计表和海岸线监测表保持独立；只有在空间、时间和指标定义匹配后才考虑关联。
-- 地图中河流估计用流域/河流符号，海岸调查用点位符号；不得混用。
+- 国家层级估计表和海岸线监测表保持独立；只有在空间、时间和指标定义匹配后才考虑关联。
+- 地图中 S02 在实体粒度确认后按国家/地区着色或使用国家层级标记；不得将其绘制为具体河流轨迹。海岸调查用独立点位符号，不得混用。
 - 坐标系统一为 WGS84（EPSG:4326）前先检查原始 CRS。
 - 保留原始名称和标准化名称两个字段；所有标准化映射写入清洗日志。
 - 空值不自动填 0；区分未调查、未报告、不适用和真实零值。
