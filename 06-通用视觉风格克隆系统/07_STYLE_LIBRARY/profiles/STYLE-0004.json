@@ -1,0 +1,249 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "style_profile",
+  "style_id": "STYLE-0004",
+  "style_name": "ISOTYPE 历史图像统计符号语言（研究草案）",
+  "profile_version": "0.1.0",
+  "parent_style_id": null,
+  "source_basis": [
+    {
+      "role": "style_reference",
+      "source_url": "https://www.gerdarntz.org/content/copyright.html",
+      "rights_status": "Gerd Arntz Web Archive 明确规定图像未经 Pictoright/Gerd Arntz Estate 许可不得使用；本档案仅基于文字分析与档案链接，不复制原图。",
+      "evidence_level": "existing case analysis plus source record; image-level verification pending"
+    }
+  ],
+  "reference_roles": [
+    "style_reference"
+  ],
+  "style_definition": "以标准化、可重复识别的图画符号及稳定语义映射表达社会统计与公共信息。",
+  "narrative_stance": "降低跨语言阅读门槛，使读者通过符号识别、计数和比较理解社会数据。",
+  "core_gene": {
+    "identity_features": [
+      "标准化图画符号",
+      "符号与对象/单位之间稳定映射",
+      "重复符号承担数量表达",
+      "符号排列具有规则",
+      "图像与标题/图例/文字协同"
+    ],
+    "feature_relationships": [
+      "符号形式、单位含义与排列规则构成一套视觉语法",
+      "数量通常通过符号重复表达，不任意放大单个符号",
+      "文字说明补充图像符号无法独立表达的分类和统计口径"
+    ],
+    "distinctive_anomalies": [],
+    "boundaries": [
+      "本档案仅描述指定作品/项目的视觉语言，不代表作者全部作品或整个设计流派。",
+      "不得复制原作中的独特内容、商标或数据来冒充新作品。"
+    ]
+  },
+  "systems": {
+    "A1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "以标准化、可重复识别的图画符号及稳定语义映射表达社会统计与公共信息。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://www.gerdarntz.org/content/copyright.html"
+      ]
+    },
+    "B1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "有限且有语义分工的色彩系统；具体色值需从授权参考图取样。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://www.gerdarntz.org/content/copyright.html"
+      ]
+    },
+    "B2": {
+      "status": "pending",
+      "observations": [],
+      "inferences": [],
+      "rules": [],
+      "evidence": []
+    },
+    "B3": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "符号形式、单位含义与排列规则构成一套视觉语法；数量通常通过符号重复表达，不任意放大单个符号；文字说明补充图像符号无法独立表达的分类和统计口径"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://www.gerdarntz.org/content/copyright.html"
+      ]
+    },
+    "B4": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "尺度/空间规则服从信息关系，而非机械复制原作比例。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://www.gerdarntz.org/content/copyright.html"
+      ]
+    },
+    "C1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "以清晰、可复用的图形语法组织主体。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://www.gerdarntz.org/content/copyright.html"
+      ]
+    },
+    "C2": {
+      "status": "pending",
+      "observations": [],
+      "inferences": [],
+      "rules": [],
+      "evidence": []
+    },
+    "C3": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "控制装饰与细节，不让非信息性元素抢占层级。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://www.gerdarntz.org/content/copyright.html"
+      ]
+    },
+    "C4": {
+      "status": "pending",
+      "observations": [],
+      "inferences": [],
+      "rules": [],
+      "evidence": []
+    },
+    "D1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "主体设计应服务节点、路径或逐步解释的语义功能。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://www.gerdarntz.org/content/copyright.html"
+      ]
+    },
+    "E1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "信息密度按阅读任务分区，并保留清晰层级。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://www.gerdarntz.org/content/copyright.html"
+      ]
+    },
+    "E2": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "突出最能帮助读者完成任务的节点或阶段。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://www.gerdarntz.org/content/copyright.html"
+      ]
+    },
+    "E3": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "通过结构秩序与信息节奏建立张力，避免纯装饰性复杂。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://www.gerdarntz.org/content/copyright.html"
+      ]
+    }
+  },
+  "consistency_anchors": {
+    "line_quality": "标准化、可重复识别的图画符号轮廓；具体线条特征待授权原图检查",
+    "color_palette": "需以具体作品为准；不将颜色视为所有 ISOTYPE 作品的固定常数",
+    "light_logic": "统计图画符号为主，通常不依赖写实光照",
+    "space_treatment": "以行列、分组和阅读顺序组织符号；具体版式依数据任务变化",
+    "detail_density": "符号应简化且可辨，图例和文字承担必要解释"
+  },
+  "rules": [
+    {
+      "rule_id": "STYLE-0004-R01",
+      "module": "C1",
+      "requirement_type": "style",
+      "change_type": "core",
+      "priority": "must",
+      "source": "https://www.gerdarntz.org/content/copyright.html",
+      "object": "图画符号",
+      "condition": "对象需要跨语言表达时",
+      "rule": "为每类对象建立稳定、可识别的标准化图画符号。",
+      "requires": [],
+      "excludes": [],
+      "acceptance": "检查符号与对象的一一对应关系。"
+    },
+    {
+      "rule_id": "STYLE-0004-R02",
+      "module": "D1",
+      "requirement_type": "style",
+      "change_type": "core",
+      "priority": "must",
+      "source": "https://www.gerdarntz.org/content/copyright.html",
+      "object": "数量单位",
+      "condition": "数量通过重复符号编码时",
+      "rule": "明确一个符号代表的统计单位，并优先以重复数量表达规模。",
+      "requires": [],
+      "excludes": [],
+      "acceptance": "图例标明单位；抽样计数与数据核对。"
+    },
+    {
+      "rule_id": "STYLE-0004-R03",
+      "module": "E1",
+      "requirement_type": "style",
+      "change_type": "core",
+      "priority": "must",
+      "source": "https://www.gerdarntz.org/content/copyright.html",
+      "object": "符号排列",
+      "condition": "多个类别/地区需要比较时",
+      "rule": "使用一致的排列和分组语法，避免符号数量与类别归属混淆。",
+      "requires": [],
+      "excludes": [],
+      "acceptance": "按图例复核分类、计数和阅读顺序。"
+    }
+  ],
+  "applicability": {
+    "supported_scope": [
+      "社会统计视觉化",
+      "公共信息教育图解",
+      "受 ISOTYPE 启发的现代图画符号设计"
+    ],
+    "unsupported_scope": [
+      "不保证像素级复现",
+      "不将单一作品扩大解释为作者全部创作"
+    ],
+    "known_variants": []
+  },
+  "confidence_notes": [
+    "本档案综合五个案例的现有文字分析及 ISOTYPE 方法说明，尚未检查五张原图。",
+    "该档案是方法体系研究草案，不代表某一位作者的全部视觉风格。",
+    "原始档案明确限制图像复制，任何图像托管或再发布必须先取得权利人许可。"
+  ],
+  "backend_profiles": [],
+  "validation_history": [
+    {
+      "status": "not_generated",
+      "note": "尚无基于本档案完成并通过六维验收的迁移图像。"
+    }
+  ],
+  "status": "draft"
+}

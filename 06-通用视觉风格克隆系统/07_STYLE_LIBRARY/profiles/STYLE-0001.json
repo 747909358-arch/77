@@ -1,0 +1,248 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "style_profile",
+  "style_id": "STYLE-0001",
+  "style_name": "哈里·贝克式地铁线路拓扑图",
+  "profile_version": "0.1.0",
+  "parent_style_id": null,
+  "source_basis": [
+    {
+      "role": "style_reference",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg",
+      "rights_status": "Wikimedia Commons 页面标注 Public Domain；该文件本轮仅登记外链，未将二进制图像复制到仓库。",
+      "evidence_level": "existing case analysis plus source record; image-level verification pending"
+    }
+  ],
+  "reference_roles": [
+    "style_reference"
+  ],
+  "style_definition": "以线路拓扑关系优先于地理精确性的交通网络示意图语言。",
+  "narrative_stance": "以清晰路径帮助读者快速追踪线路、站点与换乘关系。",
+  "core_gene": {
+    "identity_features": [
+      "水平、垂直与约 45° 的几何线路",
+      "站点间距规律化",
+      "换乘节点突出",
+      "地理位置可为拓扑可读性让位",
+      "有限色彩区分线路"
+    ],
+    "feature_relationships": [
+      "线路几何化与站点规律间距共同降低路径追踪负担",
+      "换乘节点以特殊标记连接多条线路",
+      "中心区域可适度放大，但必须标明示意性质"
+    ],
+    "distinctive_anomalies": [],
+    "boundaries": [
+      "本档案仅描述指定作品/项目的视觉语言，不代表作者全部作品或整个设计流派。",
+      "不得复制原作中的独特内容、商标或数据来冒充新作品。"
+    ]
+  },
+  "systems": {
+    "A1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "以线路拓扑关系优先于地理精确性的交通网络示意图语言。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg"
+      ]
+    },
+    "B1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "有限且有语义分工的色彩系统；具体色值需从授权参考图取样。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg"
+      ]
+    },
+    "B2": {
+      "status": "pending",
+      "observations": [],
+      "inferences": [],
+      "rules": [],
+      "evidence": []
+    },
+    "B3": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "线路几何化与站点规律间距共同降低路径追踪负担；换乘节点以特殊标记连接多条线路；中心区域可适度放大，但必须标明示意性质"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg"
+      ]
+    },
+    "B4": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "尺度/空间规则服从信息关系，而非机械复制原作比例。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg"
+      ]
+    },
+    "C1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "以清晰、可复用的图形语法组织主体。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg"
+      ]
+    },
+    "C2": {
+      "status": "pending",
+      "observations": [],
+      "inferences": [],
+      "rules": [],
+      "evidence": []
+    },
+    "C3": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "控制装饰与细节，不让非信息性元素抢占层级。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg"
+      ]
+    },
+    "C4": {
+      "status": "pending",
+      "observations": [],
+      "inferences": [],
+      "rules": [],
+      "evidence": []
+    },
+    "D1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "主体设计应服务节点、路径或逐步解释的语义功能。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg"
+      ]
+    },
+    "E1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "信息密度按阅读任务分区，并保留清晰层级。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg"
+      ]
+    },
+    "E2": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "突出最能帮助读者完成任务的节点或阶段。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg"
+      ]
+    },
+    "E3": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "通过结构秩序与信息节奏建立张力，避免纯装饰性复杂。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg"
+      ]
+    }
+  },
+  "consistency_anchors": {
+    "line_quality": "均匀、清晰、几何化的直线段；以水平/垂直/45°方向为主",
+    "color_palette": "有限且稳定的线路分类色；具体色值待授权图像取样",
+    "light_logic": "平面图示，无写实光照逻辑",
+    "space_treatment": "拓扑优先；必要时压缩或放大地理空间",
+    "detail_density": "站名与换乘信息为主，弱化无关街道细节"
+  },
+  "rules": [
+    {
+      "rule_id": "STYLE-0001-R01",
+      "module": "B3",
+      "requirement_type": "style",
+      "change_type": "core",
+      "priority": "must",
+      "source": "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg",
+      "object": "线路与节点",
+      "condition": "表达网络连接时",
+      "rule": "使用水平、垂直或约45°线段构建路径，优先保持拓扑连通而非真实地理形状。",
+      "requires": [],
+      "excludes": [],
+      "acceptance": "逐条核对节点邻接关系与换乘连接。"
+    },
+    {
+      "rule_id": "STYLE-0001-R02",
+      "module": "B4",
+      "requirement_type": "style",
+      "change_type": "core",
+      "priority": "must",
+      "source": "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg",
+      "object": "站点间距",
+      "condition": "布局拥挤且需提升可读性时",
+      "rule": "允许规则化站距和中心区空间变形，但不得改变真实线路关系。",
+      "requires": [],
+      "excludes": [],
+      "acceptance": "标注示意地图，并检查是否误导真实距离。"
+    },
+    {
+      "rule_id": "STYLE-0001-R03",
+      "module": "E2",
+      "requirement_type": "style",
+      "change_type": "core",
+      "priority": "must",
+      "source": "https://commons.wikimedia.org/wiki/File:Beckmap1.jpg",
+      "object": "换乘节点",
+      "condition": "两条及以上线路交汇时",
+      "rule": "使用区别于普通站点的稳定节点编码。",
+      "requires": [],
+      "excludes": [],
+      "acceptance": "所有换乘站均可在图例和路径查找中识别。"
+    }
+  ],
+  "applicability": {
+    "supported_scope": [
+      "公共交通网络图",
+      "组织关系网络",
+      "公共服务节点图"
+    ],
+    "unsupported_scope": [
+      "不保证像素级复现",
+      "不将单一作品扩大解释为作者全部创作"
+    ],
+    "known_variants": []
+  },
+  "confidence_notes": [
+    "本档案来自已有文字分析与公开来源记录；已核验 Wikimedia 文件页标注公共领域，仍需复核该图与伦敦交通原作的对应版本。",
+    "尚未对下载后的原始像素做色值、线宽、字体和站点符号测量。"
+  ],
+  "backend_profiles": [],
+  "validation_history": [
+    {
+      "status": "not_generated",
+      "note": "尚无基于本档案完成并通过六维验收的迁移图像。"
+    }
+  ],
+  "status": "draft"
+}

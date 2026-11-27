@@ -1,0 +1,248 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "style_profile",
+  "style_id": "STYLE-0002",
+  "style_name": "马西莫·维涅里式网格化地铁线路图",
+  "profile_version": "0.1.0",
+  "parent_style_id": null,
+  "source_basis": [
+    {
+      "role": "style_reference",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg",
+      "rights_status": "Wikimedia Commons 文件页标注 CC BY 2.0，作者 Michael Cory；这是对地图的摄影记录，不应误称为原始设计母版。",
+      "evidence_level": "existing case analysis plus source record; image-level verification pending"
+    }
+  ],
+  "reference_roles": [
+    "style_reference"
+  ],
+  "style_definition": "以网格化几何线路、有限服务色、站点节点和高度抽象地理背景构成的信息优先型网络图。",
+  "narrative_stance": "用简化、秩序和图例帮助读者辨认服务线路及关系。",
+  "core_gene": {
+    "identity_features": [
+      "水平/垂直/45°几何线路",
+      "明亮色彩区分服务",
+      "站点圆点与换乘编码",
+      "弱化真实地理背景",
+      "图例和服务说明"
+    ],
+    "feature_relationships": [
+      "网格化线路与节点编码形成可预测的阅读路径",
+      "色彩与图例共同区分服务类别",
+      "地理抽象提高线路关系可读性但可能损失方位感"
+    ],
+    "distinctive_anomalies": [],
+    "boundaries": [
+      "本档案仅描述指定作品/项目的视觉语言，不代表作者全部作品或整个设计流派。",
+      "不得复制原作中的独特内容、商标或数据来冒充新作品。"
+    ]
+  },
+  "systems": {
+    "A1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "以网格化几何线路、有限服务色、站点节点和高度抽象地理背景构成的信息优先型网络图。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg"
+      ]
+    },
+    "B1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "有限且有语义分工的色彩系统；具体色值需从授权参考图取样。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg"
+      ]
+    },
+    "B2": {
+      "status": "pending",
+      "observations": [],
+      "inferences": [],
+      "rules": [],
+      "evidence": []
+    },
+    "B3": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "网格化线路与节点编码形成可预测的阅读路径；色彩与图例共同区分服务类别；地理抽象提高线路关系可读性但可能损失方位感"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg"
+      ]
+    },
+    "B4": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "尺度/空间规则服从信息关系，而非机械复制原作比例。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg"
+      ]
+    },
+    "C1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "以清晰、可复用的图形语法组织主体。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg"
+      ]
+    },
+    "C2": {
+      "status": "pending",
+      "observations": [],
+      "inferences": [],
+      "rules": [],
+      "evidence": []
+    },
+    "C3": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "控制装饰与细节，不让非信息性元素抢占层级。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg"
+      ]
+    },
+    "C4": {
+      "status": "pending",
+      "observations": [],
+      "inferences": [],
+      "rules": [],
+      "evidence": []
+    },
+    "D1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "主体设计应服务节点、路径或逐步解释的语义功能。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg"
+      ]
+    },
+    "E1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "信息密度按阅读任务分区，并保留清晰层级。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg"
+      ]
+    },
+    "E2": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "突出最能帮助读者完成任务的节点或阶段。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg"
+      ]
+    },
+    "E3": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "通过结构秩序与信息节奏建立张力，避免纯装饰性复杂。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg"
+      ]
+    }
+  },
+  "consistency_anchors": {
+    "line_quality": "统一、利落的几何线路；水平/垂直/45°方向",
+    "color_palette": "多条服务线路使用区分度较高的有限色；具体色值待图像测量",
+    "light_logic": "平面图示，无写实光照逻辑",
+    "space_treatment": "网格化拓扑布局，地理背景高度抽象",
+    "detail_density": "保留线路、站点、换乘和图例；减少地理细节"
+  },
+  "rules": [
+    {
+      "rule_id": "STYLE-0002-R01",
+      "module": "B3",
+      "requirement_type": "style",
+      "change_type": "core",
+      "priority": "must",
+      "source": "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg",
+      "object": "线路布局",
+      "condition": "网络关系复杂时",
+      "rule": "使用规则化网格和有限角度组织线路，优先呈现连接关系。",
+      "requires": [],
+      "excludes": [],
+      "acceptance": "检查交叉、并行与换乘是否可区分。"
+    },
+    {
+      "rule_id": "STYLE-0002-R02",
+      "module": "B1",
+      "requirement_type": "style",
+      "change_type": "core",
+      "priority": "must",
+      "source": "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg",
+      "object": "服务类别",
+      "condition": "不同线路/服务需要并行比较时",
+      "rule": "以稳定色彩编码服务类别，并在图例中一一对应。",
+      "requires": [],
+      "excludes": [],
+      "acceptance": "颜色与图例逐项匹配，并检查灰度/色觉可辨性。"
+    },
+    {
+      "rule_id": "STYLE-0002-R03",
+      "module": "E1",
+      "requirement_type": "style",
+      "change_type": "core",
+      "priority": "must",
+      "source": "https://commons.wikimedia.org/wiki/File:1972_Massimo_Vignelli_Subway_Map.jpg",
+      "object": "地理细节",
+      "condition": "地图承担网络查询而非导航定位时",
+      "rule": "弱化非必要地理背景，保留足以避免方向误读的参照。",
+      "requires": [],
+      "excludes": [],
+      "acceptance": "用读者路径查找任务验证信息可读性。"
+    }
+  ],
+  "applicability": {
+    "supported_scope": [
+      "抽象网络关系图",
+      "多线路系统图",
+      "需要强图例编码的复杂关系图"
+    ],
+    "unsupported_scope": [
+      "不保证像素级复现",
+      "不将单一作品扩大解释为作者全部创作"
+    ],
+    "known_variants": []
+  },
+  "confidence_notes": [
+    "参考图页面确认该文件为 CC BY 2.0，拍摄者 Michael Cory；使用时需署名并链接许可证。",
+    "尚未下载并检查全分辨率文件；本档案基于已有文字分析与文件页元数据。"
+  ],
+  "backend_profiles": [],
+  "validation_history": [
+    {
+      "status": "not_generated",
+      "note": "尚无基于本档案完成并通过六维验收的迁移图像。"
+    }
+  ],
+  "status": "draft"
+}

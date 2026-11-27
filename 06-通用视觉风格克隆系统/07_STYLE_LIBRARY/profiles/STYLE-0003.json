@@ -1,0 +1,248 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "style_profile",
+  "style_id": "STYLE-0003",
+  "style_name": "R2D3 式滚动渐进视觉叙事",
+  "profile_version": "0.1.0",
+  "parent_style_id": null,
+  "source_basis": [
+    {
+      "role": "style_reference",
+      "source_url": "https://r2d3.us/",
+      "rights_status": "R2D3 项目作品版权状态未核实；仅登记来源链接，不复制图像、插画或代码。",
+      "evidence_level": "existing case analysis plus source record; image-level verification pending"
+    }
+  ],
+  "reference_roles": [
+    "style_reference"
+  ],
+  "style_definition": "以滚动触发、连续状态变化、逐步构建的主视觉和贴近图形的短文本解释复杂概念。",
+  "narrative_stance": "通过分步揭示降低认知负担，使读者沿叙事顺序理解机制。",
+  "core_gene": {
+    "identity_features": [
+      "逐屏渐进揭示",
+      "单一主视觉随叙事逐步变化",
+      "数据点/树结构承担解释主体",
+      "短文本贴近图形",
+      "动画/交互表达机制步骤"
+    ],
+    "feature_relationships": [
+      "滚动位置与图形状态一一对应",
+      "每一步只引入有限的新信息",
+      "前后状态连续，避免无因果意义的装饰动画"
+    ],
+    "distinctive_anomalies": [],
+    "boundaries": [
+      "本档案仅描述指定作品/项目的视觉语言，不代表作者全部作品或整个设计流派。",
+      "不得复制原作中的独特内容、商标或数据来冒充新作品。"
+    ]
+  },
+  "systems": {
+    "A1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "以滚动触发、连续状态变化、逐步构建的主视觉和贴近图形的短文本解释复杂概念。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://r2d3.us/"
+      ]
+    },
+    "B1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "有限且有语义分工的色彩系统；具体色值需从授权参考图取样。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://r2d3.us/"
+      ]
+    },
+    "B2": {
+      "status": "pending",
+      "observations": [],
+      "inferences": [],
+      "rules": [],
+      "evidence": []
+    },
+    "B3": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "滚动位置与图形状态一一对应；每一步只引入有限的新信息；前后状态连续，避免无因果意义的装饰动画"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://r2d3.us/"
+      ]
+    },
+    "B4": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "尺度/空间规则服从信息关系，而非机械复制原作比例。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://r2d3.us/"
+      ]
+    },
+    "C1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "以清晰、可复用的图形语法组织主体。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://r2d3.us/"
+      ]
+    },
+    "C2": {
+      "status": "pending",
+      "observations": [],
+      "inferences": [],
+      "rules": [],
+      "evidence": []
+    },
+    "C3": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "控制装饰与细节，不让非信息性元素抢占层级。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://r2d3.us/"
+      ]
+    },
+    "C4": {
+      "status": "pending",
+      "observations": [],
+      "inferences": [],
+      "rules": [],
+      "evidence": []
+    },
+    "D1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "主体设计应服务节点、路径或逐步解释的语义功能。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://r2d3.us/"
+      ]
+    },
+    "E1": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "信息密度按阅读任务分区，并保留清晰层级。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://r2d3.us/"
+      ]
+    },
+    "E2": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "突出最能帮助读者完成任务的节点或阶段。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://r2d3.us/"
+      ]
+    },
+    "E3": {
+      "status": "partial",
+      "observations": [],
+      "inferences": [
+        "通过结构秩序与信息节奏建立张力，避免纯装饰性复杂。"
+      ],
+      "rules": [],
+      "evidence": [
+        "https://r2d3.us/"
+      ]
+    }
+  },
+  "consistency_anchors": {
+    "line_quality": "以清晰、可追踪的数据图形和结构线为主；具体笔触/线宽待原图审查",
+    "color_palette": "以区分数据类别与叙事状态为目的；精确色彩系统待实图提取",
+    "light_logic": "网页图形/扁平可视化，不假设写实光照",
+    "space_treatment": "滚动章节与主视觉状态同步，图文紧密协作",
+    "detail_density": "逐步揭示，单屏控制信息量，避免一次性堆叠全部状态"
+  },
+  "rules": [
+    {
+      "rule_id": "STYLE-0003-R01",
+      "module": "E1",
+      "requirement_type": "style",
+      "change_type": "core",
+      "priority": "must",
+      "source": "https://r2d3.us/",
+      "object": "单屏信息量",
+      "condition": "解释多阶段机制时",
+      "rule": "每个滚动阶段只引入一个主要概念或因果步骤。",
+      "requires": [],
+      "excludes": [],
+      "acceptance": "读者能复述当前步骤且不会混淆前后状态。"
+    },
+    {
+      "rule_id": "STYLE-0003-R02",
+      "module": "B3",
+      "requirement_type": "style",
+      "change_type": "core",
+      "priority": "must",
+      "source": "https://r2d3.us/",
+      "object": "主视觉状态",
+      "condition": "滚动推进时",
+      "rule": "主视觉应在同一空间系统内连续演化，避免无理由跳变。",
+      "requires": [],
+      "excludes": [],
+      "acceptance": "逐帧检查状态连续性与语义对应。"
+    },
+    {
+      "rule_id": "STYLE-0003-R03",
+      "module": "E2",
+      "requirement_type": "style",
+      "change_type": "core",
+      "priority": "must",
+      "source": "https://r2d3.us/",
+      "object": "阶段焦点",
+      "condition": "每一叙事步骤",
+      "rule": "当前步骤的关键数据点、节点或树结构必须成为视觉焦点。",
+      "requires": [],
+      "excludes": [],
+      "acceptance": "读者能在短时间内指出当前阶段的重点。"
+    }
+  ],
+  "applicability": {
+    "supported_scope": [
+      "交互式概念解释",
+      "数据新闻长篇叙事",
+      "可制作静态逐步版的教学图解"
+    ],
+    "unsupported_scope": [
+      "不保证像素级复现",
+      "不将单一作品扩大解释为作者全部创作"
+    ],
+    "known_variants": []
+  },
+  "confidence_notes": [
+    "档案依据是已有案例分析与 R2D3 项目主页链接；未对网站全部章节逐屏复核。",
+    "本档案是交互叙事风格，不等同于可直接复制的静态图像风格；迁移需明确静态替代方案。"
+  ],
+  "backend_profiles": [],
+  "validation_history": [
+    {
+      "status": "not_generated",
+      "note": "尚无基于本档案完成并通过六维验收的迁移图像。"
+    }
+  ],
+  "status": "draft"
+}
