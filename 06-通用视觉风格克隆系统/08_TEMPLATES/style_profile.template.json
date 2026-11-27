@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "style_profile",
+  "style_id": "STYLE-0001",
+  "style_name": "",
+  "profile_version": "1.0.0",
+  "parent_style_id": null,
+  "source_basis": [],
+  "reference_roles": [],
+  "style_definition": "",
+  "narrative_stance": "",
+  "core_gene": {
+    "identity_features": [],
+    "feature_relationships": [],
+    "distinctive_anomalies": [],
+    "boundaries": []
+  },
+  "systems": {
+    "A1": {"status": "pending", "observations": [], "inferences": [], "rules": [], "evidence": []},
+    "B1": {"status": "pending", "observations": [], "inferences": [], "rules": [], "evidence": []},
+    "B2": {"status": "pending", "observations": [], "inferences": [], "rules": [], "evidence": []},
+    "B3": {"status": "pending", "observations": [], "inferences": [], "rules": [], "evidence": []},
+    "B4": {"status": "pending", "observations": [], "inferences": [], "rules": [], "evidence": []},
+    "C1": {"status": "pending", "observations": [], "inferences": [], "rules": [], "evidence": []},
+    "C2": {"status": "pending", "observations": [], "inferences": [], "rules": [], "evidence": []},
+    "C3": {"status": "pending", "observations": [], "inferences": [], "rules": [], "evidence": []},
+    "C4": {"status": "pending", "observations": [], "inferences": [], "rules": [], "evidence": []},
+    "D1": {"status": "pending", "observations": [], "inferences": [], "rules": [], "evidence": []},
+    "E1": {"status": "pending", "observations": [], "inferences": [], "rules": [], "evidence": []},
+    "E2": {"status": "pending", "observations": [], "inferences": [], "rules": [], "evidence": []},
+    "E3": {"status": "pending", "observations": [], "inferences": [], "rules": [], "evidence": []}
+  },
+  "consistency_anchors": {
+    "line_quality": "",
+    "color_palette": "",
+    "light_logic": "",
+    "space_treatment": "",
+    "detail_density": ""
+  },
+  "rules": [],
+  "applicability": {"supported_scope": [], "unsupported_scope": [], "known_variants": []},
+  "confidence_notes": [],
+  "backend_profiles": [],
+  "validation_history": [],
+  "status": "draft"
+}

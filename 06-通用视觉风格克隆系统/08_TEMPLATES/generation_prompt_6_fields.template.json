@@ -1,0 +1,51 @@
+{
+  "style": {
+    "narrative_stance": "",
+    "artist_reference": "",
+    "line_quality": "",
+    "color_palette": "",
+    "light_logic": "",
+    "space_treatment": "",
+    "detail_density": "",
+    "style_consistency_anchors": {
+      "line_quality": "",
+      "color_palette": "",
+      "light_logic": "",
+      "space_treatment": "",
+      "detail_density": ""
+    }
+  },
+  "character": {
+    "identity": "",
+    "face": "",
+    "posture": "",
+    "expression": "",
+    "gaze": "",
+    "costume": "",
+    "distinctive_feature": ""
+  },
+  "environment": {
+    "scene": "",
+    "scale": "",
+    "relation_to_subject": ""
+  },
+  "narrative": {
+    "character_scene_relation": "",
+    "tension_type": "",
+    "tension_elements": "",
+    "visual_path": "",
+    "anchor_point": "",
+    "lingering_question": ""
+  },
+  "mood": {
+    "primary": "",
+    "secondary": "",
+    "complexity": ""
+  },
+  "technical": {
+    "composition": "",
+    "aspect_ratio": "",
+    "style_detail": "",
+    "negative_constraints": []
+  }
+}

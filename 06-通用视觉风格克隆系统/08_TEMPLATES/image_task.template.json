@@ -1,0 +1,17 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "image_task",
+  "task_id": "TASK-0001",
+  "mode": "apply",
+  "style_id": "STYLE-0001",
+  "style_profile_version": "1.0.0",
+  "subject": {"identity": "", "count": null, "appearance": [], "action_or_state": "", "relations": []},
+  "environment": {"scene": "", "spatial_relationship": "", "time_or_conditions": ""},
+  "narrative": {"intent": "", "audience": "", "visual_path": "", "anchor_point": "", "tension": []},
+  "project_locked": [],
+  "allowed_changes": [],
+  "format": {"aspect_ratio": null, "orientation": null, "output_count": null, "text_requirements": []},
+  "backend": {"backend_id": null, "model_version": null, "input_mode": "unknown"},
+  "deliverables": ["chinese_json", "english_json", "chinese_simple_prompt", "natural_language_prompt"],
+  "status": "draft"
+}

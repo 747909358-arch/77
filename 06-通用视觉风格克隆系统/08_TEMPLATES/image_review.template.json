@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "image_review",
+  "review_id": "REVIEW-0001",
+  "task_id": "TASK-0001",
+  "style_id": "STYLE-0001",
+  "style_profile_version": "1.0.0",
+  "actual_output_reference": null,
+  "actual_prompt_reference": null,
+  "backend_execution": {"backend_id": null, "model_version": null, "seed": null, "submitted_prompt": null},
+  "dimensions": {
+    "style_preservation": "unknown",
+    "content_compliance": "unknown",
+    "locked_requirements": "unknown",
+    "text_image_structure": "unknown",
+    "technical_delivery": "unknown",
+    "series_consistency": "not_applicable"
+  },
+  "deviations": [],
+  "revision": {"baseline": null, "changed_variables": [], "protected_requirements": [], "side_effects": []},
+  "overall_status": "unreviewed"
+}
