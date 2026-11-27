@@ -3,33 +3,69 @@
   "record_type": "style_profile",
   "style_id": "STYLE-0004",
   "style_name": "ISOTYPE 历史图像统计符号语言（研究草案）",
-  "profile_version": "0.1.0",
+  "profile_version": "0.2.0",
   "parent_style_id": null,
   "source_basis": [
     {
+      "role": "method_reference",
+      "source_url": "https://www.gerdarntz.org/content/gerd-arntz.html",
+      "rights_status": "文字可在署名 www.gerdarntz.org 与作者 Max Bruinsma 后复制；图像另需许可。",
+      "evidence_level": "official archive text directly reviewed"
+    },
+    {
       "role": "style_reference",
-      "source_url": "https://www.gerdarntz.org/content/copyright.html",
-      "rights_status": "Gerd Arntz Web Archive 明确规定图像未经 Pictoright/Gerd Arntz Estate 许可不得使用；本档案仅基于文字分析与档案链接，不复制原图。",
-      "evidence_level": "existing case analysis plus source record; image-level verification pending"
+      "source_url": "https://gerdarntz.org/node/705/",
+      "archive_file_id": "GMDH02_50002",
+      "rights_status": "No reproduction or repository-hosting permission granted; written permission from Gerd Arntz Estate/Pictoright required.",
+      "evidence_level": "visual file opened and visually reviewed"
+    },
+    {
+      "role": "style_reference",
+      "source_url": "https://gerdarntz.org/node/706/",
+      "archive_file_id": "GMDH02_50003",
+      "rights_status": "No reproduction or repository-hosting permission granted; written permission from Gerd Arntz Estate/Pictoright required.",
+      "evidence_level": "visual file opened and visually reviewed"
+    },
+    {
+      "role": "style_reference",
+      "source_url": "https://gerdarntz.org/node/712/",
+      "archive_file_id": "GMDH02_50008",
+      "rights_status": "No reproduction or repository-hosting permission granted; written permission from Gerd Arntz Estate/Pictoright required.",
+      "evidence_level": "archive metadata verified; image binary not yet visually reviewed"
+    },
+    {
+      "role": "style_reference",
+      "source_url": "https://www.gerdarntz.org/node/714/",
+      "archive_file_id": "GMDH02_50010",
+      "rights_status": "No reproduction or repository-hosting permission granted; written permission from Gerd Arntz Estate/Pictoright required.",
+      "evidence_level": "archive metadata verified; image binary not yet visually reviewed"
+    },
+    {
+      "role": "style_reference",
+      "source_url": "https://www.gerdarntz.org/node/721/",
+      "archive_file_id": "GMDH02_50017",
+      "rights_status": "No reproduction or repository-hosting permission granted; written permission from Gerd Arntz Estate/Pictoright required.",
+      "evidence_level": "archive metadata verified; image binary not yet visually reviewed"
     }
   ],
   "reference_roles": [
     "style_reference"
   ],
-  "style_definition": "以标准化、可重复识别的图画符号及稳定语义映射表达社会统计与公共信息。",
-  "narrative_stance": "降低跨语言阅读门槛，使读者通过符号识别、计数和比较理解社会数据。",
+  "style_definition": "以标准化图画符号、稳定语义映射和明确版面语法构成的视觉统计语言；数量优先通过同尺度符号的重复数量表达，而不是任意放大单个符号。",
+  "narrative_stance": "用直接可识别的图像总结数据关系，辅助而非完全取代文字；通过规则化排列和比较结构降低跨语言理解门槛。",
   "core_gene": {
     "identity_features": [
-      "标准化图画符号",
-      "符号与对象/单位之间稳定映射",
-      "重复符号承担数量表达",
-      "符号排列具有规则",
-      "图像与标题/图例/文字协同"
+      "标准化且可重复识别的图画符号",
+      "符号与对象/统计单位之间存在稳定映射",
+      "数量优先通过同尺度符号的数量变化表达",
+      "符号排列服从可读的网格与比较关系",
+      "图像承担视觉摘要，标题、关键词和图例补足统计口径"
     ],
     "feature_relationships": [
-      "符号形式、单位含义与排列规则构成一套视觉语法",
-      "数量通常通过符号重复表达，不任意放大单个符号",
-      "文字说明补充图像符号无法独立表达的分类和统计口径"
+      "标准化让同一符号在不同图表中保持可识别性，必要时以小幅变体或附加标记表达具体身份",
+      "数量变化通过增加或减少同尺度符号呈现，避免将大小变化误读为数量变化",
+      "水平排列可用于表达数量变化，垂直排列可用于时间推进或不同数据比较；需按具体图表语境判定",
+      "图像符号、网格位置、图例与关键词共同形成可读的视觉文本"
     ],
     "distinctive_anomalies": [],
     "boundaries": [
@@ -40,142 +76,169 @@
   "systems": {
     "A1": {
       "status": "partial",
-      "observations": [],
+      "observations": [
+        "官方档案将 Isotype 定义为视觉统计方法，强调标准化（同一符号）与视觉语言规则。"
+      ],
       "inferences": [
         "以标准化、可重复识别的图画符号及稳定语义映射表达社会统计与公共信息。"
       ],
       "rules": [],
       "evidence": [
-        "https://www.gerdarntz.org/content/copyright.html"
+        "https://www.gerdarntz.org/content/gerd-arntz.html"
       ]
     },
     "B1": {
       "status": "partial",
-      "observations": [],
+      "observations": [
+        "1930 年《Commercial fleets of the world》原图可见国旗/色带承担国家区分；不能据单一图表把某组颜色规定为全部 Isotype 的固定调色板。"
+      ],
       "inferences": [
         "有限且有语义分工的色彩系统；具体色值需从授权参考图取样。"
       ],
       "rules": [],
       "evidence": [
-        "https://www.gerdarntz.org/content/copyright.html"
+        "https://gerdarntz.org/node/705/"
       ]
     },
     "B2": {
       "status": "pending",
       "observations": [],
-      "inferences": [],
+      "inferences": [
+        "色彩需按具体作品的分类语义与印刷条件核验，不预设统一色板。"
+      ],
       "rules": [],
       "evidence": []
     },
     "B3": {
       "status": "partial",
-      "observations": [],
+      "observations": [
+        "官方档案说明符号应在网格中组织；水平排列可表达数量变化，垂直排列可表达时间推进或不同数据比较。"
+      ],
       "inferences": [
         "符号形式、单位含义与排列规则构成一套视觉语法；数量通常通过符号重复表达，不任意放大单个符号；文字说明补充图像符号无法独立表达的分类和统计口径"
       ],
       "rules": [],
       "evidence": [
-        "https://www.gerdarntz.org/content/copyright.html"
+        "https://www.gerdarntz.org/content/gerd-arntz.html"
       ]
     },
     "B4": {
       "status": "partial",
-      "observations": [],
+      "observations": [
+        "1930 年船队图使用年份分层与重复船舶符号；单符号代表量可从图中标注读取。"
+      ],
       "inferences": [
         "尺度/空间规则服从信息关系，而非机械复制原作比例。"
       ],
       "rules": [],
       "evidence": [
-        "https://www.gerdarntz.org/content/copyright.html"
+        "https://gerdarntz.org/node/705/"
       ]
     },
     "C1": {
       "status": "partial",
-      "observations": [],
+      "observations": [
+        "官方档案指出符号应简化、即时可识别，避免分散注意力的细节。"
+      ],
       "inferences": [
         "以清晰、可复用的图形语法组织主体。"
       ],
       "rules": [],
       "evidence": [
-        "https://www.gerdarntz.org/content/copyright.html"
+        "https://www.gerdarntz.org/content/gerd-arntz.html"
       ]
     },
     "C2": {
       "status": "pending",
       "observations": [],
-      "inferences": [],
+      "inferences": [
+        "符号的具体轮廓、描边和局部造型需逐张图像测量后再归纳。"
+      ],
       "rules": [],
       "evidence": []
     },
     "C3": {
       "status": "partial",
-      "observations": [],
+      "observations": [
+        "官方档案强调简化图像和减少干扰细节。"
+      ],
       "inferences": [
         "控制装饰与细节，不让非信息性元素抢占层级。"
       ],
       "rules": [],
       "evidence": [
-        "https://www.gerdarntz.org/content/copyright.html"
+        "https://www.gerdarntz.org/content/gerd-arntz.html"
       ]
     },
     "C4": {
       "status": "pending",
       "observations": [],
-      "inferences": [],
+      "inferences": [
+        "字体、字号、标题和图例细节需逐张原图复核。"
+      ],
       "rules": [],
       "evidence": []
     },
     "D1": {
       "status": "partial",
-      "observations": [],
+      "observations": [
+        "官方档案明确指出图像总结并支持文字内容，而非完全取代文字。"
+      ],
       "inferences": [
         "主体设计应服务节点、路径或逐步解释的语义功能。"
       ],
       "rules": [],
       "evidence": [
-        "https://www.gerdarntz.org/content/copyright.html"
+        "https://www.gerdarntz.org/content/gerd-arntz.html"
       ]
     },
     "E1": {
       "status": "partial",
-      "observations": [],
+      "observations": [
+        "网格、符号排列、标题和图例共同支持整体概览。"
+      ],
       "inferences": [
         "信息密度按阅读任务分区，并保留清晰层级。"
       ],
       "rules": [],
       "evidence": [
-        "https://www.gerdarntz.org/content/copyright.html"
+        "https://www.gerdarntz.org/content/gerd-arntz.html"
       ]
     },
     "E2": {
       "status": "partial",
-      "observations": [],
+      "observations": [
+        "1930 年船队图按年份形成比较序列；汽车拥有图以年份序列组织比较。"
+      ],
       "inferences": [
         "突出最能帮助读者完成任务的节点或阶段。"
       ],
       "rules": [],
       "evidence": [
-        "https://www.gerdarntz.org/content/copyright.html"
+        "https://gerdarntz.org/node/705/",
+        "https://gerdarntz.org/node/706/"
       ]
     },
     "E3": {
       "status": "partial",
-      "observations": [],
+      "observations": [
+        "数量变化与社会比较由符号重复、时间序列和图例建立，不依赖装饰性透视或写实场景。"
+      ],
       "inferences": [
         "通过结构秩序与信息节奏建立张力，避免纯装饰性复杂。"
       ],
       "rules": [],
       "evidence": [
-        "https://www.gerdarntz.org/content/copyright.html"
+        "https://www.gerdarntz.org/content/gerd-arntz.html"
       ]
     }
   },
   "consistency_anchors": {
-    "line_quality": "标准化、可重复识别的图画符号轮廓；具体线条特征待授权原图检查",
-    "color_palette": "需以具体作品为准；不将颜色视为所有 ISOTYPE 作品的固定常数",
-    "light_logic": "统计图画符号为主，通常不依赖写实光照",
-    "space_treatment": "以行列、分组和阅读顺序组织符号；具体版式依数据任务变化",
-    "detail_density": "符号应简化且可辨，图例和文字承担必要解释"
+    "line_quality": "以简化、可识别、可重复的符号轮廓为原则；具体线宽和刀刻痕迹需授权图像取样",
+    "color_palette": "按具体图表的类别编码取样；不把船队图中的旗帜色扩展为全体系固定色板",
+    "light_logic": "统计图形以平面印刷表达为主；不增加写实光照",
+    "space_treatment": "采用网格、行列和比较序列；水平/垂直排列按数据关系定义",
+    "detail_density": "符号简化、减少干扰细节；图例与关键词提供必要统计说明"
   },
   "rules": [
     {
@@ -184,13 +247,13 @@
       "requirement_type": "style",
       "change_type": "core",
       "priority": "must",
-      "source": "https://www.gerdarntz.org/content/copyright.html",
+      "source": "https://www.gerdarntz.org/content/gerd-arntz.html",
       "object": "图画符号",
-      "condition": "对象需要跨语言表达时",
-      "rule": "为每类对象建立稳定、可识别的标准化图画符号。",
+      "condition": "需要跨语言识别统计对象时",
+      "rule": "为每类对象建立简化、稳定且可识别的标准化图画符号；避免无信息价值的细节。",
       "requires": [],
       "excludes": [],
-      "acceptance": "检查符号与对象的一一对应关系。"
+      "acceptance": "符号可被辨识，且同类符号在整张图中保持一致。"
     },
     {
       "rule_id": "STYLE-0004-R02",
@@ -198,13 +261,13 @@
       "requirement_type": "style",
       "change_type": "core",
       "priority": "must",
-      "source": "https://www.gerdarntz.org/content/copyright.html",
+      "source": "https://www.gerdarntz.org/content/gerd-arntz.html",
       "object": "数量单位",
-      "condition": "数量通过重复符号编码时",
-      "rule": "明确一个符号代表的统计单位，并优先以重复数量表达规模。",
+      "condition": "数量由重复符号编码时",
+      "rule": "明确一个符号代表的统计单位，优先通过增加或减少同尺度符号表达数量，不任意缩放单个符号。",
       "requires": [],
       "excludes": [],
-      "acceptance": "图例标明单位；抽样计数与数据核对。"
+      "acceptance": "图例明确单位；符号计数可与数据核对。"
     },
     {
       "rule_id": "STYLE-0004-R03",
@@ -212,13 +275,13 @@
       "requirement_type": "style",
       "change_type": "core",
       "priority": "must",
-      "source": "https://www.gerdarntz.org/content/copyright.html",
-      "object": "符号排列",
-      "condition": "多个类别/地区需要比较时",
-      "rule": "使用一致的排列和分组语法，避免符号数量与类别归属混淆。",
+      "source": "https://www.gerdarntz.org/content/gerd-arntz.html",
+      "object": "网格与排列",
+      "condition": "需要表达时间或类别比较时",
+      "rule": "按数据关系选择水平数量序列或垂直时间/类别序列，并保持排列语法一致。",
       "requires": [],
       "excludes": [],
-      "acceptance": "按图例复核分类、计数和阅读顺序。"
+      "acceptance": "读者可从标题、排列和图例识别比较对象及阅读顺序。"
     }
   ],
   "applicability": {
@@ -234,9 +297,11 @@
     "known_variants": []
   },
   "confidence_notes": [
-    "本档案综合五个案例的现有文字分析及 ISOTYPE 方法说明，尚未检查五张原图。",
-    "该档案是方法体系研究草案，不代表某一位作者的全部视觉风格。",
-    "原始档案明确限制图像复制，任何图像托管或再发布必须先取得权利人许可。"
+    "已直接打开并目视检查两张档案原图：GMDH02_50002（世界商船船队）与 GMDH02_50003（世界汽车拥有情况）。",
+    "其余三张原图的档案条目与文件编号已核对，但本轮尚未成功打开图像二进制文件；具体图形细节保持待核验。",
+    "官方档案文字明确说明标准化、符号简化、网格组织，以及数量用符号数量而非符号大小表达。",
+    "档案图像版权明确受限；本风格档案当前只用于研究与提示词规则设计，不包含原图，不授予任何复制/再发布权。",
+    "style_profile 状态保持 draft；需取得适合仓库公开托管及目标使用场景的书面许可，并完成剩余三张原图复核和六维验收后才可升级。"
   ],
   "backend_profiles": [],
   "validation_history": [
